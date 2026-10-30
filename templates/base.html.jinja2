@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>{% block title %}{% endblock title %}</title>
+    <meta name="description"
+          content="LinkNest turns long URLs into short, easy-to-share links."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:title" content="LinkNest - Shorter links, easier sharing"/>
+    <meta property="og:url" content="{{ url_for('index', _external=True, _scheme='https') }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image"
+          content="{{ url_for('static', filename='images/linknest.svg', _external=True, _scheme='https') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css', v='4') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}"/>
+</head>
+
+<body onload="AnimationLoader()">
+<div id="AnimationLoad"></div>
+
+<script>
+    let preload = document.getElementById('AnimationLoad');
+
+    function AnimationLoader() {
+        preload.style.display = 'none';
+    }
+</script>
+
+<header>
+    {% block header %}
+    {% endblock header %}
+</header>
+
+{% block content %}
+{% endblock content %}
+
+<footer>
+    <div id="footerbox">
+        <div>LinkNest - A little tool for sharing links, made by Ayush Sharma.</div>
+        <ul>
+            <li><a href="{{ url_for('index') }}">LinkNest</a></li>
+            <li>|</li>
+            <li><a href="https://github.com/Ayushsharma77">Ayush Sharma</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+</html>

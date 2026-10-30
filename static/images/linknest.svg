@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">LinkNest</title>
+  <desc id="description">Shorter links, easier sharing.</desc>
+  <rect width="1200" height="630" fill="#17324d"/>
+  <circle cx="1040" cy="74" r="245" fill="#294d69" opacity="0.9"/>
+  <circle cx="112" cy="594" r="220" fill="#234c5a" opacity="0.9"/>
+  <g fill="none" stroke-linecap="round" stroke-width="22">
+    <rect x="110" y="257" width="132" height="64" rx="32" transform="rotate(-42 176 289)" stroke="#d1495b"/>
+    <rect x="180" y="257" width="132" height="64" rx="32" transform="rotate(-42 246 289)" stroke="#62d6c6"/>
+  </g>
+  <text x="376" y="302" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" letter-spacing="-3">LinkNest</text>
+  <text x="382" y="378" fill="#e1e8f0" font-family="Arial, Helvetica, sans-serif" font-size="32" letter-spacing="1">Shorter links. Easier sharing.</text>
+  <path d="M382 421h104" stroke="#62d6c6" stroke-width="8" stroke-linecap="round"/>
+</svg>
