@@ -1,6 +1,6 @@
 # LinkNest
 
-## Demo (0.5× speed)
+## Demo
 
 https://github.com/user-attachments/assets/7a3cead8-82b3-4d1a-b10e-d995e614aa3a
 
